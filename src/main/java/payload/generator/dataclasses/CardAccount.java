@@ -1,7 +1,5 @@
 package payload.generator.dataclasses;
 
-import payload.generator.dataclasses.Card;
-
 import java.util.ArrayList;
 
 public class CardAccount {
