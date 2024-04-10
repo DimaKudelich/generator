@@ -1,4 +1,4 @@
-package payload.generator;
+package payload.generator.dataclasses;
 
 import java.util.ArrayList;
 
