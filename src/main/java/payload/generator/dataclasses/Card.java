@@ -28,4 +28,57 @@ public class Card {
     public String komplatStatus;
     public ArrayList<String> cardAvailableActions;
     public String contractNumber;
+
+    public Card(
+            String cardNumberMasked,
+            String cardHash,
+            String cardStatus,
+            long expireDate,
+            String owner,
+            boolean isVirtual,
+            boolean displayOnMain,
+            boolean displayBalance,
+            int sortIndex,
+            double balance,
+            boolean isMainPayProduct,
+            String currency,
+            String stateSignature,
+            boolean isAdditional,
+            String cardDepartmentName,
+            String cardDepartmentAddress,
+            int cardId, boolean isCorpoCard,
+            String paySystemName,
+            int productCode,
+            String name,
+            String imageUrl,
+            String komplatStatus,
+            ArrayList<String> cardAvailableActions,
+            String contractNumber
+    ) {
+        this.cardNumberMasked = cardNumberMasked;
+        this.cardHash = cardHash;
+        this.cardStatus = cardStatus;
+        this.expireDate = expireDate;
+        this.owner = owner;
+        this.isVirtual = isVirtual;
+        this.displayOnMain = displayOnMain;
+        this.displayBalance = displayBalance;
+        this.sortIndex = sortIndex;
+        this.balance = balance;
+        this.isMainPayProduct = isMainPayProduct;
+        this.currency = currency;
+        this.stateSignature = stateSignature;
+        this.isAdditional = isAdditional;
+        this.cardDepartmentName = cardDepartmentName;
+        this.cardDepartmentAddress = cardDepartmentAddress;
+        this.cardId = cardId;
+        this.isCorpoCard = isCorpoCard;
+        this.paySystemName = paySystemName;
+        this.productCode = productCode;
+        this.name = name;
+        this.imageUrl = imageUrl;
+        this.komplatStatus = komplatStatus;
+        this.cardAvailableActions = cardAvailableActions;
+        this.contractNumber = contractNumber;
+    }
 }
